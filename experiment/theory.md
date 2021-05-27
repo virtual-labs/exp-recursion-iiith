@@ -19,10 +19,16 @@ Otherwise we have three options
 This gives the following **Recursive Function :**
 
 Let F(i,x) denotes whether it is possible to obtain a difference of x using the weights
+
 w[i],w[i+1],...,w[n-1].
+
 Obviously, F(i,0) is 1, Otherwise
+
 F(i,x) = F(i+1,x)||F(i+1,x-w[i])||F(i+1,x+w[i]);
+
 F(i+1,x) corresponds to Option3.
+
 F(i+1,x-w[i]) corresponds to Option1.
+
 F(i+1,x+w[i]) corresponds to Option2.
 
