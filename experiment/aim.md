@@ -2,7 +2,7 @@ Welcome to recursion. One of the most easiest things to code but really hard to 
 
 **Problem 1:**  
 
-You are given scales for weighing loads. On the left side lies a single stone of known weight W < 2N. You own a set of N different weights, weighing 1, 2, 4, ..., 2NÅ|1 units of mass respectively. Determine how many possible ways there are of placing some weights on the sides of the scales, so as to balance them (put them in a state of equilibrium).
+You are given scales for weighing loads. On the left side lies a single stone of known weight W < 2N. You own a set of N different weights, weighing 1, 2, 4, ..., 2<sup>N</sup>Å|1 units of mass respectively. Determine how many possible ways there are of placing some weights on the sides of the scales, so as to balance them (put them in a state of equilibrium).
 
 
 **Input Specification**  
@@ -25,7 +25,7 @@ Output: 14
 
 **Problem 2:**  
 
-Given a weighing pan, n weights and a destination weight D, print ÅgYESÅh or ÅgNOÅh depending whether you can weight D using other weights given.  
+Given a weighing pan, n weights and a destination weight D, print "YES" or "NO" depending whether you can weight D using other weights given.  
 
 
 **Input Specification**
@@ -35,7 +35,7 @@ Input begins with numbers of weights n, then n values denoting mass of each weig
 
 **Output Specification**
 
-As the output, print ÅgYESÅh if it is possible to weight D, otherwise ÅgNOÅh.  
+As the output, print "YES" if it is possible to weight D, otherwise "NO".  
 
 
 **Sample Input and Output**  
