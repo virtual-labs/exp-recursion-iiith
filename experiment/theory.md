@@ -5,13 +5,13 @@ Recursion can be applied to a problem if the problem for the given input can be 
 
 **Problem 2**
 
-Let us assume we have kept weight D on left pan. From amongst the N weights you can choose to keep some weights on left side and some weights on right side and we may not use some weights at all. Lets say we keep a total weight of w1 on left side and w2+D on right pan, then for balancing w1=w2+D.We keep track the difference between the two pans and if at any stage the difference of weights between two pans is 0 we report yes. Consider the ith weight and suppose the current difference between left pan and right pan is x. If x is 0 then yes we donot choose any weight and thus return 1.  
+Let us assume we have kept weight D on left pan. From amongst the N weights you can choose to keep some weights on left side and some weights on right side and we may not use some weights at all. Lets say we keep a total weight of w1 on left side and w2+D on right pan, then for balancing w1=w2+D.We keep track the difference between the two pans and if at any stage the difference of weights between two pans is 0 we report yes. Consider the i<sup>th</sup> weight and suppose the current difference between left pan and right pan is x. If x is 0 then yes we donot choose any weight and thus return 1.  
 
 Otherwise we have three options
 
-**Option1:** Put the ith weight on right pan.In which case the difference between left and right pan becomes x - weight[i].  
-**Option2:** Put the ith weight on left pan.In which case the difference between left and right pan becomes x + weight[i].  
-**Option3:** Donot put the ith weight on either pan.In which case the difference between left and right pan remains x.
+**Option1:** Put the i<sup>th</sup> weight on right pan.In which case the difference between left and right pan becomes x - weight[i].    
+**Option2:** Put the i<sup>th</sup> weight on left pan.In which case the difference between left and right pan becomes x + weight[i].  
+**Option3:** Donot put the i<sup>th</sup> weight on either pan.In which case the difference between left and right pan remains x.
 
 
 This gives the following **Recursive Function :**
