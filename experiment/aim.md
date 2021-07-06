@@ -2,7 +2,7 @@ Welcome to recursion. One of the most easiest things to code but really hard to 
 
 **Problem 1:**  
 
-You are given scales for weighing loads. On the left side lies a single stone of known weight W < 2N. You own a set of N different weights, weighing 1, 2, 4, ..., 2<sup>N</sup>Å|1 units of mass respectively. Determine how many possible ways there are of placing some weights on the sides of the scales, so as to balance them (put them in a state of equilibrium).
+You are given scales for weighing loads. On the left side lies a single stone of known weight W < 2N. You own a set of N different weights, weighing 1, 2, 4, ..., 2<sup>N</sup>-1 units of mass respectively. Determine how many possible ways there are of placing some weights on the sides of the scales, so as to balance them (put them in a state of equilibrium).
 
 
 **Input Specification**  
