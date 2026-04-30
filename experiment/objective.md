@@ -1,1 +1,5 @@
-- To learn to solve problems related to Recursion using Computer Programming.
+- To understand the concept of recursion and identify problems that can be solved recursively.
+- To develop and implement recursive algorithms for classic computational problems.
+- To analyze the flow and efficiency of recursive solutions, including base cases and recursive cases.
+- To compare recursion with iteration and recognize when recursion is advantageous.
+- To strengthen problem-solving skills by applying recursion to real-world scenarios and algorithmic challenges.
