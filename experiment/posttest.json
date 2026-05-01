@@ -1,46 +1,175 @@
-[
-{"question":"1. A continue statement causes execution to skip to:",
-"answers":{
-            "a":"the end of the program",
-            "b":"the first statement after the loop",
-            "c":"the statement following the continue statement",
-            "d":"the next iteration of the loop"
-          },
-"correctAnswer":"d"},
-
-{"question":"2. The statement i++; is equivalent to:",
-"answers":{
-            "a":"i = i + i;",
-            "b":"i = i + 1;",
-            "c":"i = i - 1;",
-            "d":"i - - ;"
-          },
-"correctAnswer":"b"},
-
-{"question":"3. Another word for 'looping' is:",
-"answers":{
-            "a":"recapitulation ",
-            "b":"tintinabulation ",
-            "c":"iteration",
-            "d":"reiteration"
-          },
-"correctAnswer":"c"},
-
-{"question":"4. Which looping process is best used when the number of iterations is known?",
-"answers":{
-            "a":"for",
-            "b":"while",
-            "c":"do-while",
-            "d":"all of the above"
-          },
-"correctAnswer":"a"},
-
-{"question":"5.  Which of the following is not an infinite loop.",
-"answers":{
-            "a":"int i = 1 ; while ( 1 ) { i++ ; }",
-            "b":"for( int i =1; i < 10 ; i--) printf('Hello World');",
-            "c":"for(int i =1; i<100; i++) printf('Hello World');",
-            "d":"int i = 0; do{ i-- printf('%d ',i); }while(i>0);"
-          },
-"correctAnswer":"c"}
-]
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which of the following best describes a base case in recursion?",
+      "answers": {
+        "a": "A function that calls itself",
+        "b": "A variable declaration",
+        "c": "A condition where recursion stops",
+        "d": "A loop inside a function"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. That describes recursion, not the base case.",
+        "b": "Incorrect. Variables are unrelated.",
+        "c": "Correct. The base case is where recursion terminates.",
+        "d": "Incorrect. Loops are not required for recursion."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. What is the output of the following recursive function call: factorial(3)?\nfunction factorial(n) { if (n == 0) return 1; else return n * factorial(n-1); }",
+      "answers": {
+        "a": "0",
+        "b": "1",
+        "c": "3",
+        "d": "6"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. 0 is not the result.",
+        "b": "Incorrect. 1 is the base case result.",
+        "c": "Incorrect. 3 is not the result of factorial(3).",
+        "d": "Correct. 3 * 2 * 1 = 6."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which of the following is NOT a property of recursion?",
+      "answers": {
+        "a": "Always faster than iteration",
+        "b": "Requires a base case",
+        "c": "Can be used to solve combinatorial problems",
+        "d": "Can lead to stack overflow"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Incorrect. Recursion is not always faster than iteration.",
+        "b": "Correct. Recursion requires a base case.",
+        "c": "Correct. Recursion is used in combinatorial problems.",
+        "d": "Correct. Stack overflow is a risk in recursion."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "4. In the context of recursion, what is a call stack overflow?",
+      "answers": {
+        "a": "When a function returns a value",
+        "b": "When a loop runs infinitely",
+        "c": "When too many recursive calls exhaust the stack memory",
+        "d": "When a variable is not initialized"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Returning a value does not cause overflow.",
+        "b": "Incorrect. Infinite loops are not stack overflows.",
+        "c": "Correct. Too many recursive calls can exhaust stack memory.",
+        "d": "Incorrect. Variable initialization is unrelated."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. Which of the following problems is best solved using recursion?",
+      "answers": {
+        "a": "Variable assignment",
+        "b": "Simple addition",
+        "c": "Finding the maximum in an array",
+        "d": "Tower of Hanoi"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Assignment does not require recursion.",
+        "b": "Incorrect. Addition is a simple operation.",
+        "c": "Incorrect. Maximum can be found iteratively.",
+        "d": "Correct. Tower of Hanoi is a classic recursive problem."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. What is the main advantage of tail recursion?",
+      "answers": {
+        "a": "It always runs faster",
+        "b": "It can be optimized to use less stack space",
+        "c": "It requires no base case",
+        "d": "It never terminates"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Not always faster.",
+        "b": "Correct. Tail recursion can be optimized by compilers.",
+        "c": "Incorrect. Base case is still required.",
+        "d": "Incorrect. Tail recursion can terminate."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "7. Which of the following recursive algorithms is used to solve the balancing weights problem?",
+      "answers": {
+        "a": "Sorting the weights",
+        "b": "Ignoring the weights",
+        "c": "Exploring all combinations of placing weights",
+        "d": "Adding all weights to one side"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Sorting is not required.",
+        "b": "Incorrect. Ignoring weights does not solve the problem.",
+        "c": "Correct. The recursive solution explores all combinations.",
+        "d": "Incorrect. All weights on one side is not the only solution."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. Which of the following is true about the subset sum problem in recursion?",
+      "answers": {
+        "a": "It only works for two weights",
+        "b": "It is not related to recursion",
+        "c": "It cannot be solved recursively",
+        "d": "It can be solved by considering all combinations recursively"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. It works for any number of weights.",
+        "b": "Incorrect. It is related to recursion.",
+        "c": "Incorrect. It can be solved recursively.",
+        "d": "Correct. Subset sum is a classic recursive problem."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. What is the main risk of using recursion without careful design?",
+      "answers": {
+        "a": "All of the above",
+        "b": "Stack overflow",
+        "c": "Incorrect results",
+        "d": "Infinite loops"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. All are risks of poor recursion design.",
+        "b": "Correct. Stack overflow is a risk.",
+        "c": "Correct. Incorrect results are possible.",
+        "d": "Correct. Infinite loops can occur."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "10. Which of the following is NOT a typical use case for recursion?",
+      "answers": {
+        "a": "Simple variable assignment",
+        "b": "Sorting algorithms like Merge Sort",
+        "c": "Solving combinatorial problems",
+        "d": "Tree traversal"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Incorrect. Assignment does not require recursion.",
+        "b": "Correct. Merge Sort uses recursion.",
+        "c": "Correct. Combinatorial problems often use recursion.",
+        "d": "Correct. Tree traversal is a classic use of recursion."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}
