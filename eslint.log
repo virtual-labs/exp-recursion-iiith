@@ -1,0 +1,11 @@
+
+/home/runner/work/exp-recursion-iiith/exp-recursion-iiith/experiment/simulation/js/main.js
+   16:18  warning  Unnecessary escape character: \"  no-useless-escape
+   16:22  warning  Unnecessary escape character: \"  no-useless-escape
+   61:18  warning  Unnecessary escape character: \"  no-useless-escape
+   61:22  warning  Unnecessary escape character: \"  no-useless-escape
+  110:18  warning  Unnecessary escape character: \"  no-useless-escape
+  110:22  warning  Unnecessary escape character: \"  no-useless-escape
+
+✖ 6 problems (0 errors, 6 warnings)
+

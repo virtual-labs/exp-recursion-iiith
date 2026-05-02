@@ -1,0 +1,175 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is recursion in computer programming?",
+      "answers": {
+        "c": "A function calling itself",
+        "a": "A function calling another function",
+        "d": "A loop inside a function",
+        "b": "A function with no return value"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "c": "Correct. Recursion is when a function calls itself.",
+        "a": "Incorrect. That is function composition, not recursion.",
+        "d": "Incorrect. Loops are not recursion.",
+        "b": "Incorrect. Return value is not related to recursion."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which of the following is essential for a recursive function to work correctly?",
+      "answers": {
+        "d": "A base case",
+        "b": "A loop",
+        "a": "A global variable",
+        "c": "A print statement"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "d": "Correct. A base case prevents infinite recursion.",
+        "b": "Incorrect. Loops are not required for recursion.",
+        "a": "Incorrect. Global variables are not required.",
+        "c": "Incorrect. Print statements are not required."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What will happen if a recursive function does not have a base case?",
+      "answers": {
+        "b": "It will run infinitely or cause a stack overflow",
+        "d": "It will return 0",
+        "a": "It will print nothing",
+        "c": "It will run faster"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "b": "Correct. Without a base case, recursion never stops and causes a stack overflow.",
+        "d": "Incorrect. It does not return 0 by default.",
+        "a": "Incorrect. Output is not guaranteed to be nothing.",
+        "c": "Incorrect. Infinite recursion is not faster."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which of the following problems is best solved using recursion?",
+      "answers": {
+        "c": "Calculating factorial of a number",
+        "a": "Printing Hello World",
+        "d": "Adding two numbers",
+        "b": "Assigning a value to a variable"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "c": "Correct. Factorial is a classic recursive problem.",
+        "a": "Incorrect. Printing does not require recursion.",
+        "d": "Incorrect. Addition is a simple operation.",
+        "b": "Incorrect. Assignment does not require recursion."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. What is the base case in the recursive computation of factorial(n)?",
+      "answers": {
+        "b": "n == 0",
+        "a": "n == 1",
+        "d": "n < 0",
+        "c": "n > 1"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "b": "Correct. The factorial of 0 is defined as 1, which is the base case.",
+        "a": "Incorrect. n == 1 is not the standard base case, though factorial(1) = 1.",
+        "d": "Incorrect. Factorial is not defined for negative numbers.",
+        "c": "Incorrect. n > 1 is not a base case."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. Which of the following best describes the call stack in recursion?",
+      "answers": {
+        "d": "A structure that keeps track of active function calls",
+        "c": "A list of variables",
+        "a": "A type of loop",
+        "b": "A sorting algorithm"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "d": "Correct. The call stack tracks recursive calls.",
+        "c": "Incorrect. Variables are not the call stack.",
+        "a": "Incorrect. Loops are not the call stack.",
+        "b": "Incorrect. Sorting is unrelated."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. Which of the following is a disadvantage of recursion?",
+      "answers": {
+        "b": "It can use more memory due to the call stack",
+        "a": "It always runs faster than iteration",
+        "d": "It cannot solve any problems",
+        "c": "It is never used in practice"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "b": "Correct. Recursion can use more memory than iteration.",
+        "a": "Incorrect. Recursion is not always faster.",
+        "d": "Incorrect. Recursion solves many problems.",
+        "c": "Incorrect. Recursion is widely used."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "8. Which of the following is an example of a divide-and-conquer algorithm that uses recursion?",
+      "answers": {
+        "a": "Bubble Sort",
+        "b": "Assignment",
+        "c": "Merge Sort",
+        "d": "Linear Search"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Bubble Sort is iterative.",
+        "b": "Incorrect. Assignment is not an algorithm.",
+        "c": "Correct. Merge Sort is a classic recursive algorithm.",
+        "d": "Incorrect. Linear Search is usually iterative."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "9. What is tail recursion?",
+      "answers": {
+        "a": "A recursive call inside a loop",
+        "b": "A recursive call with multiple parameters",
+        "c": "A recursive call with no base case",
+        "d": "A recursive call that is the last operation in the function"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Loops are not required.",
+        "b": "Incorrect. Parameters do not define tail recursion.",
+        "c": "Incorrect. Base case is unrelated.",
+        "d": "Correct. Tail recursion means the recursive call is the last thing executed."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "10. Which of the following problems can be solved using recursion?",
+      "answers": {
+        "a": "Balancing weights on a scale",
+        "b": "Tower of Hanoi",
+        "c": "All of the above",
+        "d": "Fibonacci sequence"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Correct. Balancing weights is solved recursively.",
+        "b": "Correct. Tower of Hanoi is solved recursively.",
+        "c": "Correct. All of these can be solved using recursion.",
+        "d": "Correct. Fibonacci sequence is solved recursively."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}
